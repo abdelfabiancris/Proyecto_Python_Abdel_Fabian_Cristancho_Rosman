@@ -47,9 +47,7 @@ def auditar_datos():
 
     ids_vistos = []
 
-    # ==========================
-    # AUDITORÍA USUARIOS
-    # ==========================
+
 
     for usuario in datos["usuarios"]:
 
@@ -143,9 +141,7 @@ def auditar_datos():
                 "errores": errores
             })
 
-    # ==========================
-    # AUDITORÍA CONTACTOS
-    # ==========================
+
 
     for contacto in datos["contactos"]:
 
@@ -244,9 +240,7 @@ def auditar_datos():
                 "errores": errores
             })
 
-    # ==========================
-    # RESUMEN
-    # ==========================
+
 
     reporte["resumen"][
         "usuarios_con_errores"
